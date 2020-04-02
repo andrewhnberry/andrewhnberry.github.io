@@ -5,9 +5,9 @@
 #
 title: Berry's Thoughts
 email:
-description: A little extension of my data science life!
+description: A little extension to my data science life!
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll", "data", "data science","python","sql"]
+keywords: ["blog", "data", "data science","python","sql"]
 
 #
 ###################################
