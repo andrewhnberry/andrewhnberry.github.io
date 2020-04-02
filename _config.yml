@@ -3,18 +3,18 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: Berry's Thoughts
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: A little extension of my data science life!
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "jekyll", "data", "data science","python","sql"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          America/Toronto
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,13 +33,13 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
+  name: andrewhnberry
+  avatar: avatar.jpg
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
   email:
   disqus-shortname:
-  twitter: #username
+  twitter: andrewhnberry
   facebook: #username
   google:
     plus: #username
@@ -48,10 +48,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: andrewhnberry
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: berrya
   skype: #username
   xing: #username
   instagram: #username
