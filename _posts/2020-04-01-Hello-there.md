@@ -5,7 +5,7 @@ excerpt: "To me, Data Science is the intersection between business and technolog
 date:   2020-04-01 18:35:00
 categories: [myself]
 image:
-  feature: /img/avatar.jpg
+  feature: avatar.jpg
 ---
 # Hi, I’m Andrew and welcome to my blog!
 
