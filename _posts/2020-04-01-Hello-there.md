@@ -4,7 +4,8 @@ title:  "Welcome-to-my-blog!"
 excerpt: "To me, Data Science is the intersection between business and technology."
 date:   2020-04-01 18:35:00
 categories: [myself]
-image: /img/avatar.jpg
+image:
+  feature: /img/avatar.jpg
 ---
 # Hi, I’m Andrew and welcome to my blog!
 
