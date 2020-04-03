@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome-to-my-blog!"
-excerpt: "To me, Data Science is the intersection between business and technology."
+title:  "Welcome to my blog!"
+excerpt: "To me, Data Science is the intersection between business and technology. [Click this link to expand this post](https://andrewhnberry.github.io/articles/2020-04/Hello-there)"
 date:   2020-04-01 18:35:00
 categories: [myself]
 image:
