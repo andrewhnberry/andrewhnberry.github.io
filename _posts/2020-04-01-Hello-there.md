@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to my blog!"
+title:  "00-Welcome to my blog!"
 excerpt: "To me, Data Science is the intersection between business and technology. This blog will be an extension to my data science life, and I will be writing about anything I want related to the realm of data science. This is an outlet for me to streamline my understanding of data science and it will act as a knowledge bank for myself. Thank you for stopping by!"
 date:   2020-04-01 18:35:00
 categories: [myself]
@@ -26,6 +26,6 @@ I know I’m fairly new in this field, but in a span of year I’ve learned a lo
 
 My background is in business, I went to a business school and that is still very much a part of me. **To me, Data Science is the intersection of business and technology, and I want to establish myself in there.**
 
-Enough me, if you read this far! Thank you and I hope you enjoy all my other posts! :blush
+Enough me, if you read this far! Thank you and I hope you enjoy all my other posts!
 
 ![image](/img/myself/myself.png)
