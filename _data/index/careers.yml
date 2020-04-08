@@ -1,16 +1,10 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Google
-  link: http://www.google.com/
-  date: July 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: Programming Internship
+- name: BrainStation
+  link: https://brainstation.io/
+  date: November 2019 - April 2020
+  job: Data Science - Teaching Assistant
 
-- name: Facebook
-  link: http://www.facebook.com/
-  date: May 2014 - July 2017
-  job: Web Assistant
-
-- name: SAP
-  link: https://www.sap.com/
-  date: 2010 - 2014
-  job: Software Developer
+- name: Happi Collective
+  date: April 2018 - Decemebr 2018
+  job: Co-Founder, Head of Business Development, Instagram: @happiicollective
