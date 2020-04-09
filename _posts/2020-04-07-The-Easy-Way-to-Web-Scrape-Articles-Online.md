@@ -15,7 +15,6 @@ About a year ago, my final capstone project required me to **web scrape a bunch 
 Through much googling (which is an important skill to know if you're a developer), I did find a **simple solution to my problems**.  I found [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)!
 
 Oh, did it save me so much time when parsing through an online news site to scrape that article. I'll show you!
-
 ## How to use Newspaper3k to Scrape Online Articles
 
 First, we need to install the python plugin on your terminal. *Disclaimer: I'm using OSX*
@@ -25,7 +24,7 @@ First, we need to install the python plugin on your terminal. *Disclaimer: I'm u
     $ pip install newspaper3k
 
 ### The Basics
-
+{% highlight python %}
     import newspaper
     from newspaper import Article
 
@@ -54,7 +53,7 @@ First, we need to install the python plugin on your terminal. *Disclaimer: I'm u
     article.title #Gives the title
     article.top_image #Gives the link to the banner image, main image with the article
     article.images #Provides a set of image links that could be saved and downloaded
-
+{% endhighlight %}
 ### Advanced: Downloading multiple articles from one news site.
 
 When I was scraping these articles, I wanted to scrape a bunch of articles from one news site and put everything in a pandas DataFrame so that I could export data out to a csv file. Sounds like a simple task right? You betcha!
