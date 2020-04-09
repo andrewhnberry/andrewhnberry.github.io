@@ -5,7 +5,8 @@ excerpt: "I will show you how to web scrape articles online and put it into a Da
 date:   2020-04-07 21:06:00
 tags: [web scraping, python, tutorials]
 categories: [web scraping]
-image: /img/code/01_code.png
+image:
+  feature: /img/code/01_code.png
 ---
 # The simplest way to web scrape news articles online!
 
