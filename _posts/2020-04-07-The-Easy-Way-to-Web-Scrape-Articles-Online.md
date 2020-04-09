@@ -6,7 +6,7 @@ date:   2020-04-07 21:06:00
 tags: [web scraping, python, tutorials]
 categories: [web scraping]
 image:
-  feature: /img/code/01_code.png
+  feature: https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb
 ---
 # The simplest way to web scrape news articles online!
 
