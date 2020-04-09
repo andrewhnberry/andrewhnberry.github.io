@@ -5,12 +5,14 @@ excerpt: "I will show you how to web scrape articles online and put it into a Da
 date:   2020-04-07 21:06:00
 tags: [web scraping, python, tutorials]
 categories: [web scraping]
+image:
+  feature: /img/code/01_code.png
 ---
 # The simplest way to web scrape news articles online!
 
 About a year ago, my final capstone project required me to **web scrape a bunch of news articles online**. Knowing my lazy self, I wanted to figure out the easiest way to achieve this task. There are tonnes of python web scraping plugins out there that could have helped me do the job, a popular one being [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/). It's a great plugin, however I did not want to get into the nitty gritty of understanding the unique html structures of each online news sites.
 
-![https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb)
+![Web Scraping](/img/code/01_code.png)
 
 Through much googling (which is an important skill to know if you're a developer), I did find a **simple solution to my problems**.  I found [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)!
 
@@ -57,15 +59,14 @@ First, we need to install the python plugin on your terminal. *Disclaimer: I'm u
 ### Advanced: Downloading multiple articles from one news site.
 
 When I was scraping these articles, I wanted to scrape a bunch of articles from one news site and put everything in a pandas DataFrame so that I could export data out to a csv file. Sounds like a simple task right? You betcha!
-
+{% highlight python %}
     import newspaper
     from newspaper import Article
     from newspaper import Source
     import pandas as pd
 
     #Lets say we wanted to download articles from GameSpot
-    gamespot = newspaper.build('https://www.gamespot.com/news/',
-    														memoize_articles = False)
+    gamespot = newspaper.build('https://www.gamespot.com/news/', memoize_articles = False)
     # I set memoize_articles to False, because I don't want it to cache and save
     # articles run after run. Fresh run, every time essentially
 
@@ -92,13 +93,13 @@ When I was scraping these articles, I wanted to scrape a bunch of articles from 
 
     #From here you can export this
     final_df.to_csv(my_scraped_articles.csv)
-
+{% endhighlight %}
 ....and there you go! That's is how you scrape a bunch of articles easily. With the code above, you could implement a for loop to loop over a bunch of newspaper sources. Creating a massive final data-frame, that you could export and then play around with.
 
 ### Enthusiast: Multithreading Web Scraping
 
 However, my proposed solution above could be a bit slow for some, as it downloads each article one after another. If you have many news sources, this could be a bit time consuming however, lets figure out a way to speed this all up. We can do this with a little help from [multithreading](https://realpython.com/intro-to-python-threading/) technologies.
-
+{% highlight python %}
     import newspaper
     from newspaper import Article
     from newspaper import Source
@@ -143,6 +144,6 @@ However, my proposed solution above could be a bit slow for some, as it download
         temp_df = pd.DataFrame({'Title': list_title, 'Text': list_text, 'Source': list_source})
         #Append to the final DataFrame
         final_df = final_df.append(temp_df, ignore_index = True)
-
+{% endhighlight %}
 
 I'm a person who **learns by doing**, so I suggest anyone reading this to **play with the code above.** From here, you now be able to web scape articles using the newspaper3k plugin. **Happy Web Scaping!**
