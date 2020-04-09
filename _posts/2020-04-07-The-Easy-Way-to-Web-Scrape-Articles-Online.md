@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "01-The Easy Way to Web Scrape Articles Online"
-excerpt: "I will show you how to web scrape articles online and put it into a DataFrame in under 10 minutes!"
+excerpt: "I will show you how to web scrape articles online and put it into a DataFrame in under 10 minutes! We'll be using the newspaper3k plugin to and some python to achieve this."
 date:   2020-04-07 21:06:00
 tags: [web scraping, python, tutorials]
 categories: [web scraping]
-image:
-  feature: /img/code/01_code.png
+image: /img/code/01_code.png
 ---
 # The simplest way to web scrape news articles online!
 
