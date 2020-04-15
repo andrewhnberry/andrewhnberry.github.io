@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "02-Can LDA modeling techniques and sentiment analysis be used determine media bias?"
-excerpt: "I had the bold idea to perform an unsupervised machine learning method to find clusters of different topics in my corpus, to which I would then perform a sentiment analysis and subjectivity analysis to see if that would provide with any interesting insights."
+excerpt: "I had the bold idea to perform an unsupervised machine learning method to find clusters of different topics in my corpus, to which I would then perform a sentiment analysis and subjectivity analysis to see if that would provide me with any interesting insights. "
 date:   2020-04-14 23:34:00
 tags: [nlp, python, projects, Data Science]
 categories: [nlp, Data Science]
@@ -23,7 +23,7 @@ First of all, let's talk a little bit about the data I used. I didn't use any da
 
 After accumulating data comprising of various articles from various news outlets, I went to work. However, the data I got online was not labeled with the topics it was talking about. Sure it was possible to get the category of the article, but **I wanted the specific detailed topic for each article I scraped. For example, if *article A* discussed about the COVID-19 response in Canada, that would be a category in itself and hopefully the various news outlets had articles that covered the same topic.**
 
-**I had the bold idea to perform an unsupervised machine learning method to find clusters of different topics in my corpus, to which I would then perform a sentiment analysis and subjectivity analysis to see if that would provide with any interesting insights.**
+**I had the bold idea to perform an unsupervised machine learning method to find clusters of different topics in my corpus, to which I would then perform a sentiment analysis and subjectivity analysis to see if that would provide me with any interesting insights.**
 
 Essentially I needed to do Latent Dirichlet allocation Topic Modeling, which is an unsupervised clustering algorithm specifically used in natural language processing.
 
@@ -41,9 +41,9 @@ From here I suspected that with the different topics identified and grouped toge
 ### The Outcome
 I'll highlight some of the interesting insights from this project below.
 |  Insight |  Note |
-|---|---|
-| Topic - Sports  | All news outlets had positive sentiment score. |
-|  Topic - COVID-19 - Trump|  Most news outlets had low Sentiment, with Washington Post having negative sentiment & highest subjectivity |
+|:--------|:--------|
+| Topic \- Sports  | All news outlets had positive sentiment score. |
+|  Topic \- COVID\-19 \- Trump|  Most news outlets had low Sentiment, with Washington Post having negative sentiment & highest subjectivity |
 |  Slate.com |  Had the highest subjectivity score across all topics, which makes sense since the news outlet is often criticize for adopting contrarian views. |
 | Channel News Asia | A Singaporean news outlet, had very low subjectivity scores and consistently low sentiment scores. |
 
