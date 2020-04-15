@@ -1,4 +1,4 @@
-- name: Can LDA modeling techniques and sentiment analysi be used determine media bias?
+- name: Can LDA modeling techniques and sentiment analysis be used to determine media bias?
   descr: "My very first full Data Science project I uploaded on Github! It was my way my first taste into NLP methodologies, for more information check out the gitub repository. I'm quite proud of it!"
   image: pong.png
   github: https://github.com/andrewhnberry/nlp_lda_media_bias_capstone

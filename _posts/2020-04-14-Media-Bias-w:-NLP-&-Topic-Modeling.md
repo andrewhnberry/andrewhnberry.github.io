@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "02-Can LDA modeling techniques and sentiment analysis be used determine media bias?"
+title:  "02-Can LDA modeling techniques and sentiment analysis be used to determine media bias?"
 excerpt: "I had the bold idea to perform an unsupervised machine learning method to find clusters of different topics in my corpus, to which I would then perform a sentiment analysis and subjectivity analysis to see if that would provide me with any interesting insights. "
 date:   2020-04-14 23:34:00
 tags: [nlp, python, projects, Data Science]
@@ -41,7 +41,7 @@ From here I suspected that with the different topics identified and grouped toge
 ### The Outcome
 I'll highlight some of the interesting insights from this project below.
 |  Insight |  Note |
-|---|------|------|
+|---|---|
 | Topic \- Sports  | All news outlets had positive sentiment score. |
 |  Topic \- COVID\-19 \- Trump|  Most news outlets had low Sentiment, with Washington Post having negative sentiment & highest subjectivity |
 |  Slate.com |  Had the highest subjectivity score across all topics, which makes sense since the news outlet is often criticize for adopting contrarian views. |
