@@ -84,6 +84,8 @@ If you like to check out my online dashboard of the various topics sentiment & s
 Thank you for reading! 🙂
 
 ### Extra Resources & References:
-[![](http://img.youtube.com/vi/3mHy4OSyRf0/0.jpg)](http://www.youtube.com/watch?v=3mHy4OSyRf0 "LDA Topic Models") Great Video on LDA Topic Modeling by Andrius Knispelis.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3mHy4OSyRf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ Great Video on LDA Topic Modeling by Andrius Knispelis.
 
 Feature graphic on LDA topic modeling belongs to *Christine Doig*. Great presentation by Christine on the Introduction to Topic Modeling in Python to be found [here](https://chdoig.github.io/pygotham-topic-modeling/#/).
