@@ -40,16 +40,36 @@ From here I suspected that with the different topics identified and grouped toge
 
 ### The Outcome
 I'll highlight some of the interesting insights from this project below.
-|  Insight |  Note|
-|:----|:-----:|
-| Topic \- Sports  | All news outlets had positive sentiment score.|
-|---
-|  Topic \- COVID\-19 \- Trump|  Most news outlets had low Sentiment, with Washington Post having negative sentiment & highest subjectivity|
-|----
-|  Slate.com |  Had the highest subjectivity score across all topics, which makes sense since the news outlet is often criticize for adopting contrarian views.|
-|----
-| Channel News Asia | A Singaporean news outlet, had very low subjectivity scores and consistently low sentiment scores.|
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-lboi"><span style="font-weight:bold">Insight</span></th>
+    <th class="tg-lboi"><span style="font-weight:bold">Note</span></th>
+  </tr>
+  <tr>
+    <td class="tg-lboi">Topic - Sports</td>
+    <td class="tg-lboi">All news outlets had positive sentiment score.</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">Topic - COVID-19 - Trump</td>
+    <td class="tg-lboi">Most news outlets had low Sentiment, with Washington Post having negative sentiment &amp; highest subjectivity</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">Slate.com</td>
+    <td class="tg-lboi">Had the highest subjectivity score across all topics, which makes sense since the news outlet is often criticize for adopting contrarian views.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Channel News Asia</td>
+    <td class="tg-0lax">A Singaporean news outlet, had very low subjectivity scores and consistently low sentiment scores.</td>
+  </tr>
+</table>
 
 ### Project Shortcomings & Potential Updates:
 The project does have its fair share of shortcomings. Most importantly, my dataset that I scraped was quite small. I had roughly 4000 articles. After cleaning, it went down to around 3000. Which is not enough if I wanted more unique insights. However, I do plan on scraping a bunch more articles and run it through my code in the future and see If I could get a better analysis and do a better job at answering my question.
