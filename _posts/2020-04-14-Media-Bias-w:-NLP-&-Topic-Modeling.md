@@ -40,12 +40,15 @@ From here I suspected that with the different topics identified and grouped toge
 
 ### The Outcome
 I'll highlight some of the interesting insights from this project below.
-|  Insight |  Note
-|----|-----
-| Topic \- Sports  | All news outlets had positive sentiment score.
-|  Topic \- COVID\-19 \- Trump|  Most news outlets had low Sentiment, with Washington Post having negative sentiment & highest subjectivity
-|  Slate.com |  Had the highest subjectivity score across all topics, which makes sense since the news outlet is often criticize for adopting contrarian views.
-| Channel News Asia | A Singaporean news outlet, had very low subjectivity scores and consistently low sentiment scores.
+|  Insight |  Note|
+|:----|:-----:|
+| Topic \- Sports  | All news outlets had positive sentiment score.|
+|---
+|  Topic \- COVID\-19 \- Trump|  Most news outlets had low Sentiment, with Washington Post having negative sentiment & highest subjectivity|
+|----
+|  Slate.com |  Had the highest subjectivity score across all topics, which makes sense since the news outlet is often criticize for adopting contrarian views.|
+|----
+| Channel News Asia | A Singaporean news outlet, had very low subjectivity scores and consistently low sentiment scores.|
 
 
 ### Project Shortcomings & Potential Updates:
