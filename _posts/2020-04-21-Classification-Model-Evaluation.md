@@ -61,7 +61,7 @@ Let’s image our predicted values as our model’s actual prediction performanc
 
 - **True Positive (TP)** refers to predicting a positive class as positive. Meaning it correctly classified it.
 - **False Positive( FP)** refers to predicting a negative class as positive. Meaning it failed to classify it properly.
-- **False negative (FN)** refers to predicting a positive class as negative. Meaning it failed to classify it properly.
+- **False Negative (FN)** refers to predicting a positive class as negative. Meaning it failed to classify it properly.
 - **True Negative (TN)** refers to predicting the negative class as negative. Meaning it correctly classified it.
 
 Going back to our faulty book example, our model confusion matrix would have looked like this.
