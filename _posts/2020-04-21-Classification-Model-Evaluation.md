@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "02-You've fit the model, what's next?"
+title:  "03-You've fit the model, what's next?"
 excerpt: "Before we start, repeat after me. 'There is no single evaluation metric that is 'on the money' for any classification problem, or any other problem.'"
 date:   2020-04-21 22:55:00
 tags: [classification, model evaluation, Data Science]
 categories: [Statistics]
 image:
-  feature: https://miro.medium.com/max/1400/0*uKkeYoh84QgWddJA.png
+  feature:
 ---
 From there you commit to your github repository, update whatever kaggle notebook you were on, close your computer, pat yourself on the back, and call it a productive day! .....Well, I wish data science was that straightforward. However, **there is a question that you need to ask yourself though. Is this model any good?**
 
