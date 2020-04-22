@@ -1,0 +1,30 @@
+---
+label: 03-You've fit the model, what's next?
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: datetime
+  name: date
+  label: date
+  description: '2020-04-21 22:55:00'
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: field_group
+  name: image
+  label: image
+  fields:
+  - type: file
+    name: feature
+    label: feature
