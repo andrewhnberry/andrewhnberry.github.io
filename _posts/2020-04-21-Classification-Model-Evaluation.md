@@ -26,7 +26,36 @@ Now repeat after me. **"There is no single evaluation metric that is "on the mon
 
 To dig into our accuracy score and break it down further, one tool that many data scientist like to use is the **confusion matrix.** It’s not an evaluation metric, but it does the job at highlighting the “types” of errors our classifier is making for each class.
 
-![Blog/confusion_matrix.png](img/confusion_matrix.png)
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#93a1a1;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#93a1a1;color:#002b36;background-color:#fdf6e3;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#93a1a1;color:#fdf6e3;background-color:#657b83;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky" colspan="3">Actual Values</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="3">Predicted Values</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0lax">Positve</td>
+    <td class="tg-0lax">Negative</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Positive</td>
+    <td class="tg-1wig">TP</td>
+    <td class="tg-1wig">FP</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Negative</td>
+    <td class="tg-1wig">FN</td>
+    <td class="tg-1wig">TN</td>
+  </tr>
+</table>
 
 Let’s image our predicted values as our model’s actual prediction performance, with the top row having our model predicting that data point as positive, and bottom row having our model predicting that data point as negative.
 
