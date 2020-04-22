@@ -103,15 +103,15 @@ From our confusion matrix, we can start calculating further metrics, such as **p
 
 **Precision** measures the accuracy of a predicted positive class.
 
-$$precision = TruePositive / (TruePositive+FalsePositive)$$
+![precision](/img/equations/precision.png)
 
 **Recall** measures how well the model is able to predict a positive class. Also known as **sensitivity** in the statistics world. Recall is more or less used more in the machine learning community and by data scientist like me!
 
-$$recall = TruePositive / (TruePositive + FalseNegative)$$
+![recall](/img/equations/recall.png)
 
 **Specificity** measures how well the model is able to predict a negative outcome:
 
-$$specificity = TrueNegative/(TrueNegative + FalseNegative)$$
+![specificity](/img/equations/specificity.png)
 
 It’s tempting to say let’s optimize for precision and recall (good precision and high recall), however there is a tradeoff. Increasing precision decreases recall, and vice versa. I won’t get into why here, but you can look it up [here](https://www.wikiwand.com/en/Precision_and_recall).
 
@@ -119,7 +119,7 @@ However, there is a metric we could use to evaluate our classification while tak
 
 For highly imbalanced data like our faulty book example, there is a great metric that I like to use is the **F1-Score**. Since it takes into account both the precision and recall and combines it into a single score. The perfect F1 score is a score than lands between 0 and 1, with 1 indicating a perfect classifier.
 
-$$F1 Score = 2*(precision * recall)/(precision +recall)$$
+![f1score](/img/equations/f1score.png)
 
 Finally, there is another important evaluation tool that I want to bring up. It being the "**Receiver Operating Characteristics**" commonly referred to as the **ROC curve**. The ROC curve plots the recall on the y-axis and the specificity on the x-axis. It does a good job at helping you choose a threshold that balances the sensitivity and specificity. I will discuss how to interpret the ROC curve in a later blog post, as it is a useful plot that requires some further detail to fully grasp the usefulness of it.
 
