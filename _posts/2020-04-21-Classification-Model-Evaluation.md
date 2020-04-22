@@ -16,7 +16,7 @@ Before we start, repeat after me. **"There is no single evaluation metric that i
 
 Great, now repeat this mantra whenever you’re are evaluating your models.
 
-Okay great, let's start with the simplist metric available being "**accuracy**". It’s popular and very easy to measure. But it’s too simplistic, and it doesn really tell us the full picture. Now repeat my mantra again. **“There is no single evaluation metric that is “on the money” for any classification problem, or any other problem."**
+Okay great, let's start with the simplest metric available being "**accuracy**". It’s popular and very easy to measure. But it’s too simplistic, and it doesn't really tell us the full picture. Now repeat my mantra again. **“There is no single evaluation metric that is “on the money” for any classification problem, or any other problem."**
 
 Let me give you an example, say you have dataset comprising 1000 data points, with 950 being class 0, and 50 being class 1. Assuming class 0 represents correctly printed books, and class 1 represents books that are faulty, let’s assume the faultiness was that they printed it upside down. We create a simple model and behold our accuracy is 95%.
 
@@ -59,10 +59,10 @@ To dig into our accuracy score and break it down further, one tool that many dat
 
 Let’s image our predicted values as our model’s actual prediction performance, with the top row having our model predicting that data point as positive, and bottom row having our model predicting that data point as negative.
 
-- **True Positive (TP)** refers to predicting a positive class as poistive. Meaning it correctly classified it.
-- **False Postivie( FP)** refers to predicting a negative class as positive. Meaning it failed to classify it properly.
-- **False negative (FN)** refers to predicting a positve class as negative. Meaning it failed to classify it properly.
-- **True Negative (TN)** refers to predicing the negative class as negative. Meaning it correclty classified it.
+- **True Positive (TP)** refers to predicting a positive class as positive. Meaning it correctly classified it.
+- **False Positive( FP)** refers to predicting a negative class as positive. Meaning it failed to classify it properly.
+- **False negative (FN)** refers to predicting a positive class as negative. Meaning it failed to classify it properly.
+- **True Negative (TN)** refers to predicting the negative class as negative. Meaning it correctly classified it.
 
 Going back to our faulty book example, our model confusion matrix would have looked like this.
 
