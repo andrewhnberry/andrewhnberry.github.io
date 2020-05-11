@@ -9,12 +9,11 @@ tags:
 categories:
   - Data Science
 ---
-
-The other day I was working on a brand new data science portfolio project (_link to the work in progress Github repository_ [_here_](https://github.com/andrewhnberry/Identifying-bad-debt)) and I was quite frustrated on how much time I was wasting, on waiting for the damn jupyter code cell to run! I'm sure some you can relate, or maybe you have more patience than me. It's annoying when you're doing something simple and you got to wait 10-15 minutes, or you're trying to test our your models but then after 30 minutes it spits out an error. With errors, when fixing you really want to a speedy validation of your fix, and not have to wait 30 minutes for it to spit another error.
+The other day I was working on a brand new data science portfolio project (_link to the work in progress Github repository_ [_here_](https://github.com/andrewhnberry/Identifying-bad-debt)) and I got quite frustrated on how much time I was wasting, on waiting for the damn jupyter code cell to run! I'm sure some you can relate, or maybe you have more patience than me. To me it's annoying when you're doing something simple and you got to wait 10-15 minutes or perhaps you're trying to test out your models but then after 30 minutes it spits out an errors. As with errors, when fixing you really want a speedy validation to your fix and not have to wait 30 minutes for it to spit another error.
 
 **Overall, this is a sign that the dataset you are working with is just too big for your machine to handle.** If you're wondering, I'm using a 2016 15" MacBook Pro with the touchbar. Question to y'all reading this and have a version of a MacBook with a touchbar. Do y'all ever use it? Do you like it? Please reach out to me with your opinion. Anyways...let's get back to topic.
 
-At least for me, whenever I'm doing a portfolio project when building out the code and modeling I would rather have a speedy execution as my proof of concept and have that all set up. Before I have my model take on the big data.
+At least for me, whenever I'm doing a portfolio project when building out the code and modeling I would rather have a speedy execution as my proof of concept and have that all set up. Before I let my model take on the big data, I leave to at the end.
 
 In this blog post, I will outline **3 easy tips to speed up your data science code execution process**.
 
@@ -40,7 +39,7 @@ df_subset_3 = df.sample(frac = 0.3, replace = True)
 Do note that opting to sample with replacement takes a bit longer. **I usually like to go with option 2**, and specify a fraction instead of a number of rows.
 
 ### Tip 2: Turn on n_jobs if you're using sklearn.
-I don't know about you, but I normally do most of my modeling with the Sklearn package. I prefer it, I'm familiar with it, and it's great. It does have a feature that I believe is overlooked sometimes, I remember when I was a data science teacher assistant I used to tell my students to keep this feature on in order to  speed up their processing times. It usually enabled when calling the model.
+I don't know about you, but I normally do most of my modeling with the Sklearn package. I prefer it, I'm familiar with it, and it's great. It does have a feature that I believe is overlooked sometimes, I remember when I was a data science teacher assistant I used to tell my students to keep this feature on in order to  speed up their processing times.
 
 You can specify n_jobs to a specific number like 2, which will then tell your model to use two cores. It you specify n_jobs to -1, it will tell your system to use all available cores. Thus, if your computer has 8 cores, it will use all 8 cores. Which will tremendously speed up computing with parallel computing. Often overlooked, and should be turned on.
 
@@ -57,13 +56,12 @@ log_reg_model_1 LogisticRegression(n_jobs = 2)
 ### Tip 3: Dimensionality Reduction
 Sometimes your dataset is large and there are many different features to take into account, which prolongs the computational time. Say you're doing a classic classification problem, most likely there are some features that are more important and relevant than other features. Some features may be weighted more than others by your model. Thus, why don't we take out the features that don't contribute to our model. The question then is, which features do we take out?
 
-There are countless of dimensionality techniques, however I will show you how to use the  Principal component analysis (PCA) Dimensionality Reduction technique with Sklearn, which is one of my favourites and most popular.  I won't go into the details on the how PCA works, however, I will link you folks to a few great sources below.
+There are countless of dimensionality reduction techniques, however I will show you how to use the  _Principal Component Analysis_ (PCA) dimensionality reduction technique with Sklearn, which is one of my favourites and most popular.  I won't go into the details on how PCA works, however, I will link you folks to a few great sources below.
 
 1. https://setosa.io/ev/principal-component-analysis/
 2. [StatQuest: PCA main ideas in only 5 minutes!!! by Josh Starmer](https://www.youtube.com/watch?v=HMOI_lkzW08)
 
-
-Follow this code to your preferred python coding environment and play around to learn more on how to use PCA with Sklearn.
+Follow this code on to your preferred python coding environment and play around to learn more on how to use PCA with Sklearn.
 ```python
 #Importing the holy trinity of data science packages
 import pandas as pd
@@ -95,7 +93,7 @@ pca.fit(X_train)
 ```
 We've fit the instantiated and fit the PCA to our X_train. The PCA will then calculate the principal components which is a value that explains the percentage of explained variance for each principal component.
 
-You can view the principal compoenents easily as it is stored as an array. To view, execute the code below/
+You can view the principal components easily as it is stored as an array. To view, execute the code below/
 
 ```python
 pca.explained_variance_ratio_
@@ -119,9 +117,9 @@ array([1.48170010e-01, 1.35868594e-01, 1.16822310e-01, 8.56309175e-02,
        9.75708543e-06, 1.54371353e-06, 7.86547278e-07, 3.87270369e-07,
        1.68066241e-33, 7.85328965e-34, 7.85328965e-34, 7.54145401e-34])
 ```
-Since the dataset we used had 64 feature, there are 64 principal components.
+Since the dataset we used has 64 feature, there are 64 principal components.
 
-**From here there are two ways to interpret the prinicipal components to choose a cut off value on reducing the features in order to speed up computational time and preserve much of the explained variance of the dateset.**
+**From here there are two ways to interpret the principal components and help us choose a cut off value on reducing the features in order to speed up computational time while trying to preserve much of data. There is a tradeoff.**
 
 #### Option 1:Plotting the explained variance ratio
 ```python
@@ -133,7 +131,7 @@ plt.xlabel('Number of Principal Components (PCs)')
 plt.xticks(np.arange(1,65,2))
 plt.show()
 ```
-![A PCA Graph](img/plots/pca_option1.png)
+![A PCA Graph](/img/plots/pca_option1.png)
 From here you want to a choose a value where you can start to notice diminishing returns for each principal component. For this graph you would choose a principal component of 15 or 17.
 
 #### Option 2: Plotting the cumulative sum of the explained variance fraction
@@ -146,5 +144,19 @@ plt.xlabel('Number of Principal Components (PCs)')
 plt.xticks(np.arange(1,65,2))
 plt.show()
 ```
-![Cumulative Sum of PCA graph](img/plots/pca_option2.png)
-In my opinion this a much easier plot to read.
+![Cumulative Sum of PCA graph](/img/plots/pca_option2.png)
+In my opinion this a much easier plot to read. For example, at 13 PCs it seems as if it explains 80% of the variance in our dataset. Around 25 PCs, it explains roughly 90% of the variance in our dataset.
+
+Just image that using this method, you're essentially squishing your data from 64 features to just 25 features, and that 25 features explains 90% of your total data. This the tradeoff, as you may get less accuracy in your model, for increased computation time.
+
+From here, you can choose your cutoff below and continue on your data science modeling workflow
+
+```python
+new_pca = PCA(n_components = 13)
+new_pca.fit(X_train)
+
+X_train = new_pca.transform(X_train)
+X_test = new_pca.transform(X_test)
+```
+
+Link to the full python code script on my github repository [here](https://github.com/andrewhnberry/andrewhnberry.github.io/blob/master/code_samples/pca_tutorial.py)!
