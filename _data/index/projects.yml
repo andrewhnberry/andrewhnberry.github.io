@@ -2,3 +2,8 @@
   descr: "My very first full Data Science project I uploaded on Github! It was my way my first taste into NLP methodologies, for more information check out the gitub repository. I'm quite proud of it!"
   image: pong.png
   github: https://github.com/andrewhnberry/nlp_lda_media_bias_capstone
+
+- name: Which of these job postings are fake?
+  descr: "As with many folks during this COVID-19 pandemic, folks have been laid off or out of job, a position that I am currenlty in. From time to time browsing at job boards, you would encounter a sketchy looking posting and I was wondering if I could make a machine learning model to determine if a job posting was fake. A classic end-to-end data science project.  "
+  image: pong.png
+  github: https://github.com/andrewhnberry/Fake-Job-Detection
