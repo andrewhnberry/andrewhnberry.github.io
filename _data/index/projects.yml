@@ -1,5 +1,5 @@
 - name: Visualization Tuesdays (Ongoing Project Series)
-  descr: "Just like Taco Tuesdays, this will be a weekly series for me to work on various Explatory Data Analysis projects, from a wide range of data sources. Most likely from kaggle, or from my previous projects."
+  descr: "Just like Taco Tuesdays, this will be a weekly series for me to work on various exploratory data analysis (EDA) projects, from a wide range of data sources. With a goal to be an effective storyteller of data."
   github: https://github.com/andrewhnberry/Visualization_Tuesdays
 
 - name: Which of these job postings are fake?
