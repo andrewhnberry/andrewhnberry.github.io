@@ -1,13 +1,21 @@
-- name: Can LDA modeling techniques and sentiment analysis be used to determine media bias?
-  descr: "My very first full Data Science project I uploaded on Github! It was my way my first taste into NLP methodologies, for more information check out the gitub repository. I'm quite proud of it!"
-  image: pong.png
-  github: https://github.com/andrewhnberry/nlp_lda_media_bias_capstone
-  date: November 2019 - April 2020
+- name: Visualization Tuesdays (Ongoing Project Series)
+  descr: "Just like Taco Tuesdays, this will be a weekly series for me to work on various Explatory Data Analysis projects, from a wide range of data sources. Most likely from kaggle, or from my previous projects."
+  github: https://github.com/andrewhnberry/Visualization_Tuesdays
 
 - name: Which of these job postings are fake?
-  descr: "As with many folks during this COVID-19 pandemic, folks have been laid off or out of job, a position that I am currenlty in. From time to time browsing at job boards, you would encounter a sketchy looking posting and I was wondering if I could make a machine learning model to determine if a job posting was fake. A classic end-to-end data science project.  "
+  descr: "As with many folks during this COVID-19 pandemic, folks have been laid off or out of job, a position that I am currenlty in. From time to time browsing at job boards, you would encounter a sketchy looking posting and I was wondering if I could make a machine learning model to determine if a job posting was fake. A classic end-to-end data science project."
   image: pong.png
   github: https://github.com/andrewhnberry/Fake-Job-Detection
 
+- name: Can LDA modeling techniques and sentiment analysis be used to determine media bias? (Recently Updated)
+  descr: "My very first full Data Science project I uploaded on Github! It was my way my first taste into NLP methodologies, for more information check out the gitub repository. I'm quite proud of it!"
+  image: pong.png
+  github: https://github.com/andrewhnberry/nlp_lda_media_bias_capstone
+
 - name: Are you a bad debter?
-  descr:
+  descr: "A classic end-to-end exploratory data analysis project on the Lending Club loan data, trying to figure out which features make you a bad debter. There includes various models trying to predict bad debt as well. A classic end-to-end data science project."
+  github: https://github.com/andrewhnberry/Identifying-bad-debt
+
+- name: NBA 2019 Data Science Hackathon
+  descr: "I participated in the 2019 NBA Data Science Hakathon. It was a classic regression machine learning problem."
+  github: https://github.com/andrewhnberry/ds-NBAHack-q2/blob/master/NBA_q2_Andrew.ipynb
