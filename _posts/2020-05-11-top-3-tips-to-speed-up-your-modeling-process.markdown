@@ -6,6 +6,7 @@ date: '2020-05-11 14:59'
 tags:
   - Data Science
   - Python
+  - Tutorials
 categories:
   - Data Science
 ---
