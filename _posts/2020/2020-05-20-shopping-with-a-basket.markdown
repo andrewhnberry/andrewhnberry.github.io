@@ -3,6 +3,8 @@ layout: "post"
 title: "05-Do you want cream with that coffee my friend?"
 excerpt: It's common sense for us to know that cream is often served with coffee, however how would a machine know that?
 date: "2020-05-20 14:42"
+image:
+  feature: https://images.unsplash.com/photo-1587380341844-80d936b297a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80
 tags:
   - Data Science
   - Python
