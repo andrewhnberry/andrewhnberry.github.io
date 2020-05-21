@@ -3,6 +3,12 @@ layout: "post"
 title: "Do you want cream with that coffee my friend?"
 excerpt: It's common sense for us to know that cream is often served with coffee, however how would a machine know that?
 date: "2020-05-20 14:42"
+tags:
+  - Data Science
+  - Python
+  - Tutorials
+categories:
+  - Data Science
 ---
 
 If you're anything like me, I like to shop online over shopping in person. Such as using instacart for my groceries or amazon for the various things I need in my life.
