@@ -13,7 +13,7 @@ categories:
   - Data Analytics
   - Storytelling
 image:
-  feature: https://unsplash.com/photos/V5vqWC9gyEU
+  feature: https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80
 ---
 
 I find myself in a midst of a global pandemic, stuck at home, looking for an opportunity to be in the data science/analytics field. With much time on my hands, I do my best to try to make the most of that. Part of time is spent working on my data science portfolio, to which this blog is a part of that. Another aspect of my data science portfolio is working on end-to-end data science projects. Sometimes, those projects or part of those projects is a classic exploratory data analysis (**EDA**) into a dataset.
