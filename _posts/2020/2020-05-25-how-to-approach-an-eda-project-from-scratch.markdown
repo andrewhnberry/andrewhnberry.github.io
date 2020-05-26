@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5 Tips to improve your exploratory data analysis (EDA)
+title: "06-5 Easy Tips to improve your exploratory data analysis (EDA) Project!"
 excerpt: >-
   Communication, Communication, Communication, Communication,
   and.....Communication! Not communism, but communication!
