@@ -1,5 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Lighthouse Labs
+  link: https://www.lighthouselabs.ca/
+  date: September 2020 - Present
+  job: Data Science Mentor
+
+- name: The Pandemic Job Hunt
+  link: https://www.pandemicjobhunt.com/
+  date: August 2020 - Present
+  job: Podcast Host
+
+- name: The Little Big Ideas Show
+  link: https://www.littlebigideas.ca/
+  date: June 2020 - Present
+  job: Podcast Host
+
 - name: BrainStation
   link: https://brainstation.io/
   date: November 2019 - April 2020
