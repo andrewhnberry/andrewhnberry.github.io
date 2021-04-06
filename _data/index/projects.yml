@@ -1,6 +1,5 @@
 - name: 21 Day Data Challenge - Lighthouse Labs
-  descr: "Created the user journey and challenges for the first 21 Day Data Challenge which engaged 10,000+ users. In 21 days a user will learn the basics of Python, Pandas, and Matplotlib to kickstart their data analytical skills."
-  link: https://data-challenge.lighthouselabs.ca/start
+  descr: "Created the user journey and challenges for the first 21 Day Data Challenge which engaged 10,000+ users. In 21 days a user will learn the basics of Python, Pandas, and Matplotlib to kickstart their data analytical skills. https://data-challenge.lighthouselabs.ca/start"
 
 - name: Visualization Tuesdays
   descr: "Just like Taco Tuesdays, this will be a weekly series for me to work on various exploratory data analysis (EDA) projects, from a wide range of data sources. With a goal to be an effective storyteller of data."
